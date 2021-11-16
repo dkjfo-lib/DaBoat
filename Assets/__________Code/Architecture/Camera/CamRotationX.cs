@@ -21,6 +21,6 @@ public class CamRotationX : MonoBehaviour
             newAngleX = Mathf.Clamp(transform.rotation.eulerAngles.x + addAngleX, -limitAngle, limitAngle);
 
         RotationX = newAngleX;
-        transform.rotation = Quaternion.Euler(newAngleX, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
+        transform.localRotation = Quaternion.Euler(newAngleX, transform.localRotation.eulerAngles.y, transform.localRotation.eulerAngles.z);
     }
 }
