@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class ChangeBoundBox : MonoBehaviour
 {
-    public float size = 150;
+    public float size = 170;
 
-    void Update()
+    void Start()
     {
-        var render = GetComponent<MeshRenderer>();
         var mesh = GetComponent<MeshFilter>();
-        mesh.mesh.bounds = new Bounds(transform.position, Vector3.one * 150);
+        mesh.mesh.bounds = new Bounds(transform.position, Vector3.one * size);
     }
 }
