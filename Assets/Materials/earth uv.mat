@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: earth
-  m_Shader: {fileID: -6465566751694194690, guid: edbbd84558fd49e4da785585b8146b8a, type: 3}
+  m_Name: earth uv
+  m_Shader: {fileID: -6465566751694194690, guid: bf97be816e668234d85941b902c40059, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -43,10 +43,10 @@ Material:
     - Vector1_05f3a29c58b54a578eab6f3f908b9585: 0
     - Vector1_12dba5b83c2a4aa0a36d37893895acd7: 1
     - Vector1_23c51dc2a44047aeadf859f59ea511c3: 1.01
-    - Vector1_666febbe443d4317a7a976c16f0c43e1: 0.15
+    - Vector1_666febbe443d4317a7a976c16f0c43e1: 0.25
     - Vector1_a54f42af67cd4f7baeaf98eeb09ed537: 83
     - Vector1_a7042582ff6a40a99368743942690d25: 0.5
-    - Vector1_c76db2a8aec040ddb14c4481b4412816: -0.2
+    - Vector1_c76db2a8aec040ddb14c4481b4412816: -0.31
     - Vector1_d8369694596c4663813214e23baac0b8: 0.25
     m_Colors:
     - Color_05be5cba3df044e188372f63767d9684: {r: 0.7924528, g: 0.5532058, b: 0.1525097, a: 0}
