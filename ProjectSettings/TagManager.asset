@@ -20,7 +20,7 @@ TagManager:
   - Particles
   - HitBox
   - Sight
-  - 
+  - PlayerTrigger
   - Player
   - water
   - waterCollider

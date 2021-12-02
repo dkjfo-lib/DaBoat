@@ -34,6 +34,9 @@ public class UITextValue : MonoBehaviour
                 case UIClampedValueDisplayMode.percent:
                     text.text = $"{(localvalue * 100 / localmaxvalue).ToString("000")}%";
                     break;
+                case UIClampedValueDisplayMode.raw:
+                    text.text = $"{localvalue.ToString("00")}";
+                    break;
                 default:
                     break;
             }
@@ -44,5 +47,6 @@ public class UITextValue : MonoBehaviour
 public enum UIClampedValueDisplayMode
 {
     dash,
-    percent
+    percent,
+    raw
 }
